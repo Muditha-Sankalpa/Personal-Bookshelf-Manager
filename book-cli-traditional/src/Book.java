@@ -1,5 +1,3 @@
-// Simple data holder for a book. No encapsulation beyond basic getters -
-// kept deliberately plain for the traditional (non-AI-assisted) version.
 public class Book {
 
     String title;
