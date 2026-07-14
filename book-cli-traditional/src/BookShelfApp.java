@@ -1,10 +1,6 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-// Everything lives in one class here on purpose - no separate service class,
-// no input validation loops, no formatting helpers. This is the traditional
-// (non-AI-assisted) version, written by hand, so it is simpler and less
-// robust than Version B.
 public class BookShelfApp {
 
     static ArrayList<Book> books = new ArrayList<Book>();
@@ -17,7 +13,7 @@ public class BookShelfApp {
         while (choice != 4) {
 
             System.out.println("");
-            System.out.println("=== My Bookshelf ===");
+            System.out.println("=== Muditha's Bookshelf ===");
             System.out.println("1. Add a book");
             System.out.println("2. View all books");
             System.out.println("3. Remove a book");
